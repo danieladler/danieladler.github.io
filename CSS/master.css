@@ -23,6 +23,8 @@ body {
 
 .header {
   height: 96px;
+  z-index: 3;
+  position: relative;
 }
 
 .header-container {

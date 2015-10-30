@@ -26,12 +26,14 @@ body {
   position: relative;
 
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 0 20px 15px;
   height: auto;
   width: 600px;
   text-align: center;
   /*float: right;*/
   display: inline-block;
+  text-align: right;
+  text-shadow: 1px 0px 0px; 
 }
 
 .content-right-container .p1 {
