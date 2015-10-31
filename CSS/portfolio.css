@@ -8,8 +8,38 @@ body {
   /*how do I get body to not extend down so far past last image?*/
 }
 
-.header {
-  /*position: absolute;*/
+.header-portfolio {
+  position: absolute;
+  top: 0;
+  right: 283px;
+}
+
+.header-portfolio>.header-container {
+  margin: 0 auto;
+  width: 800px;
+  font-size: 96px;
+  /*text-align: center;*/
+  color:rgb(255, 255, 255);
+  font-family: "Print Dashed";
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.header-portfolio.header-container.dadler{
+  position: relative;
+  left: 180px;
+}
+
+.header-portfolio.header-container.page {
+  position: relative;
+  left: 170px;
 }
 
 .wrapper {
@@ -65,16 +95,18 @@ section.module.parallax {
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 1);
   font-size: 66px;
-  /*font-weight: ;*/
-  /*text-shadow: 1px 2px 0;*/
   text-align: left;
   position: absolute;
   top: 479px;
 }
 
+section.module.parallax.parallax-1 h1 {
+  top: 368px;
+}
+
 section.module.parallax-1 {
   background-image: url("/Images/grass.jpg");
-  height: 600px;
+  height: 500px;
 }
 
 section.module.parallax-2 {
