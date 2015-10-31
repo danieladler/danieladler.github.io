@@ -26,6 +26,11 @@
   opacity: 0.6;
 }
 
+/*.bg.backup-bg {
+	background-color: yellow;
+	/*min-height: 2000px;
+}*/
+
 body {
   margin: 0;
   font-family: "Avenir Next";
@@ -33,9 +38,9 @@ body {
 }
 
 .header {
-  height: 96px;
-  z-index: 3;
-  position: relative;
+	height: 96px;
+  /*z-index: 3;
+  position: relative;*/
 }
 
 .header-container {

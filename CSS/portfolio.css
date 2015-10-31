@@ -1,15 +1,24 @@
+/** { border: 1px solid red; }*/
+
 html {
 }
 
 body {
-  height: auto;
+  /*height: auto;*/
   /*how do I get body to not extend down so far past last image?*/
 }
 
+.header {
+  /*position: absolute;*/
+}
+
+.wrapper {
+  margin-bottom: 0px;
+}
+
 .page-content {
-  position: relative;
-  top: -151px;{}
-  z-index: 1;
+  /*position: relative;*/
+  /*top: -151px;*/
 }
 
 .container {
@@ -30,7 +39,7 @@ section.module h3 {
 }
 
 section.module p {
-  margin-botom: 40px;
+  margin-botom: 60px;
   padding-left: 5px;
   font-size: 16px;
   font-weight:
@@ -41,7 +50,7 @@ section.module p:last-child {
 }
 
 section.module.content {
-  padding: 40px 0;
+  padding: 0 0 60px 0;
 }
 
 section.module.parallax {
@@ -74,12 +83,4 @@ section.module.parallax-2 {
 
 section.module.parallax-3 {
   background-image: url("/Images/cat.jpg");
-}
-
-.footer-portfolio {
-  bottom: 15px;
-  position: relative;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(22, 162, 244, 0.53);
 }
