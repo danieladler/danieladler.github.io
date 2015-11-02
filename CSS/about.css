@@ -9,13 +9,12 @@ html .about {
 body {
 }
 
-
 .content {
   margin: 0 auto;
   margin-top: 11vh;
   max-width: 1075px;
   width: 100%;
-}
+  }
 
 .content:after {
   content: "";
